@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <SolidColorBrush x:Key="RowDefault" Color="#FFFF0C00" />
+    <SolidColorBrush x:Key="RowGreen" Color="#FF0B0C0B" />
+    <SolidColorBrush x:Key="wu" Color="#00000000" />
+
+    <Style x:Key="DataGridRowColorStyle" TargetType="{x:Type DataGridRow}">
+        <Style.Triggers>
+            <DataTrigger Binding="{Binding direc,Mode=OneWay}" Value="发送">
+                <Setter Property="Foreground"  Value="{DynamicResource RowDefault}" />
+                <Setter Property="Background"  Value="{DynamicResource wu}" />
+            </DataTrigger>
+
+            <DataTrigger Binding="{Binding direc,Mode=OneWay}" Value="接收">
+                <Setter Property="Foreground" Value="{DynamicResource RowGreen}" />
+                <Setter Property="Background"  Value="{DynamicResource wu}" />
+            </DataTrigger>
+
+        </Style.Triggers>
+    </Style>
+
+
+</ResourceDictionary>

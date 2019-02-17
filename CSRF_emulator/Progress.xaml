@@ -1,0 +1,14 @@
+﻿<Window x:Class="CSRF_emulator.Progress"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CSRF_emulator"
+        mc:Ignorable="d"
+        Title="Progress"  Height="206.333" Width="776" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" Closed="ProgressWindowClosed">
+    <Grid>
+        <ProgressBar Name="progress"  HorizontalAlignment="Left" Height="46" Margin="10,69,0,0" VerticalAlignment="Top" Width="739"></ProgressBar>
+        <TextBlock Name="textBlockUp" HorizontalAlignment="Left" Height="48" Margin="12,21,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="739"/>
+        <TextBlock Name="textBlockDown" HorizontalAlignment="Left" Height="48" Margin="10,129,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="739"/>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+
+<CONTENT>
+		<BPS>10400</BPS>
+		<PIN>7</PIN>
+		<PROTOCOL>K</PROTOCOL>
+		
+	<COMM>
+    <RECEIVE>81 10 F1 81 03</RECEIVE>
+    <SEND>83 F1 10 C1 EF 8F C3</SEND>
+    </COMM>
+    
+    <COMM>
+    <RECEIVE>81 10 F1 3E XX</RECEIVE>
+    <SEND>81 F1 10 7E 00</SEND>
+    </COMM>
+    
+</CONTENT>

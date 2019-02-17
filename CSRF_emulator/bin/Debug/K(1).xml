@@ -1,0 +1,12 @@
+<CONTENT>
+		<BPS>9600</BPS>
+		<PIN>7</PIN>
+		<PROTOCOL>RS485</PROTOCOL>
+		    
+    <COMM>
+    <RECEIVE>81 10 F1 81 03</RECEIVE>
+    <SEND>83 F1 10 C1 EF DF 23</SEND>
+    </COMM>
+    
+		
+</CONTENT>
